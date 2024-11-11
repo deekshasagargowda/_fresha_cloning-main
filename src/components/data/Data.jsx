@@ -16,8 +16,8 @@ export const navList = [
   },
   {
     id: 4,
-    path: "/rooms",
-    text: "Test",
+    path: "/contact",
+    text: "contact",
   },
   {
     id: 5,
@@ -43,8 +43,8 @@ export const navList = [
   },
   {
     id: 6,
-    path: "/contact",
-    text: "Contact",
+    path: "/login",
+    text: "login/register",
   },
 ];
 export const socialIcons = [
@@ -70,8 +70,8 @@ export const carouselData = [
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
-    text: "Rooms",
-    count: "7861",
+    text: "shops",
+    count: "129",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
@@ -87,36 +87,37 @@ export const about = [
 
 export const services = [
   {
-    icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fas fa-spa fa-2x text-primary"></i>
+    ,
+    name: "Haircuts",
+    discription: "For men, women, and children.",
   },
   {
-    icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
-    name: "Food & Restaurant",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    icon: <i class="fa fa-hair fa-2x text-primary"></i>,
+    name: "Coloring",
+    discription: "Highlights, lowlights, full coloring, root touch-ups, and balayage.",
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-    name: "Spa & Fitness",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Nail Services",
+    discription: "Manicures: Regular, gel, and acrylic.",
   },
 
   {
     icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
-    name: "Sports & Gaming",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Massage",
+    discription: "Full Body Massage: Swedish, deep tissue, hot stone.",
   },
   {
     icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-    name: "Even & Party",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Makeup Services",
+    discription: "Bridal Makeup,"
   },
 
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-    name: "GYM & Yoga",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Special Treatments",
+    discription: "Eyebrow and Eyelash Tinting",
   },
 ];
 export const team = [
@@ -255,8 +256,8 @@ export const testimonial = [
 export const roomItems = [
   {
     img: "../assets/img/room-1.jpg",
-    price: "$110/night",
-    name: "Junior Suit",
+    price: "RS 110",
+    name: "Hair Care Combo",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -265,15 +266,15 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "Perfect for a fresh, stylish look, hair cut,shampoo and conditioning",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
 
   {
     img: "../assets/img/room-2.jpg",
-    price: "$110/night",
-    name: "Executive Suite",
+    price: "Rs110",
+    name: "Beauty Bliss Combo",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -282,14 +283,14 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "A great choice for skincare and relaxation.Facial (Brightening/Hydrating)",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
   {
     img: "../assets/img/room-3.jpg",
-    price: "$110/night",
-    name: "Super Deluxe",
+    price: "Rs 299",
+    name: "Bridal/Party Prep Combo",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -298,25 +299,13 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+      "Get ready for a special occasion.",
     yellowbtn: "View Detail",
     darkbtn: "book now",
   },
 ];
 
 export const facility = [
-  {
-    icon: <i class="fa fa-bed text-primary me-2"></i>,
-    quantity: 3,
-    facility: "bed",
-  },
-  {
-    icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 2,
-    facility: "bath",
-  },
-  {
-    icon: <i class="fa fa-wifi text-primary me-2"></i>,
-    facility: "Wifi",
-  },
+ 
+  
 ];

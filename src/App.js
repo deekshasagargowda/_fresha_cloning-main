@@ -4,7 +4,9 @@ import "./css/bootstrap.min.css";
 import "./css/animate.css";
 import "./css/animate.min.css";
 import "./App.css";
+import LoginPage from './pages/LoginPage'; // Import LoginPage
 import Header from "./components/common/Header";
+
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import {
   Home,
@@ -34,6 +36,9 @@ export default function App() {
             <Route path="/*" element={<PageNotFound />} />
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/login" element={<LoginPage />} /> {/* Add Login Route */}
+           
+        {/* Add other routes */}
           </Routes>
           <Footer />
         </Router>

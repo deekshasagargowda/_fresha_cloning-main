@@ -43,7 +43,7 @@ export const navList = [
   },
   {
     id: 6,
-    path: "/login",
+    path: "/LoginPages",
     text: "login/register",
   },
 ];
